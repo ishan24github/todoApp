@@ -11,10 +11,12 @@ Install requirements
 
 3. pip3 install django djangorestframework django-rest-auth django-bootstrap4
 
-4. cd todoApp
+Launch the project
 
-5. python3 manage.py makemigrations
+5. cd todoApp
 
-6. python3 manage.py migrate
+6. python3 manage.py makemigrations
 
-7. python3 manage.py runserver
+7. python3 manage.py migrate
+
+8. python3 manage.py runserver
