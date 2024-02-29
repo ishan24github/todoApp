@@ -4,6 +4,8 @@ from .models import Todo
 from .forms import TodoForm
 from django.http import HttpResponseRedirect
 from django.db.models import Q # new
+from django.contrib.auth.decorators import login_required
+
 
 class IndexView(generic.ListView):
     template_name = 'todos/index.html'
